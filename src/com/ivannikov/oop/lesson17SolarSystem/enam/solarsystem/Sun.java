@@ -1,8 +1,8 @@
-package com.ivannikov.lesson17SolarSystem.enam.solarsystem;
+package com.ivannikov.oop.lesson17SolarSystem.enam.solarsystem;
 
-import com.ivannikov.lesson17SolarSystem.enam.TypeHeavenlyBody;
+import com.ivannikov.oop.lesson17SolarSystem.enam.TypeHeavenlyBody;
 
-import static com.ivannikov.lesson17SolarSystem.enam.TypeHeavenlyBody.*;
+import static com.ivannikov.oop.lesson17SolarSystem.enam.TypeHeavenlyBody.*;
 
 public enum Sun  {
     SUN(STAR, 1.98892, 696340, 5772);

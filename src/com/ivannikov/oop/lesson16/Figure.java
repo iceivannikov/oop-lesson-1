@@ -1,4 +1,4 @@
-package com.ivannikov.lesson16;
+package com.ivannikov.oop.lesson16;
 
 public interface Figure {
     default boolean isAreaEquals(Figure figure) {

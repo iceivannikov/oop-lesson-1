@@ -1,4 +1,4 @@
-package com.ivannikov.task1;
+package com.ivannikov.oop.task1;
 
 public class TimeInterval {
     private int seconds;

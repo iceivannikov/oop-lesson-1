@@ -1,4 +1,4 @@
-package com.ivannikov.homework;
+package com.ivannikov.oop.homework;
 
 public class HomeworkRunner {
     public static void main(String[] args) {

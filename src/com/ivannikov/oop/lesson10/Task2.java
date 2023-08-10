@@ -1,4 +1,4 @@
-package com.ivannikov.lesson10;
+package com.ivannikov.oop.lesson10;
 
 public class Task2 {
     public static void main(String[] args) {

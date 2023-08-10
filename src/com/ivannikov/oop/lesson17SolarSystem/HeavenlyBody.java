@@ -1,7 +1,7 @@
-package com.ivannikov.lesson17SolarSystem;
+package com.ivannikov.oop.lesson17SolarSystem;
 
-import com.ivannikov.lesson17SolarSystem.enam.NameHeavenlyBody;
-import com.ivannikov.lesson17SolarSystem.enam.TypeHeavenlyBody;
+import com.ivannikov.oop.lesson17SolarSystem.enam.NameHeavenlyBody;
+import com.ivannikov.oop.lesson17SolarSystem.enam.TypeHeavenlyBody;
 
 public abstract class HeavenlyBody {
     protected NameHeavenlyBody name;

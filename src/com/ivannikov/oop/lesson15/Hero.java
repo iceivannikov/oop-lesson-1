@@ -1,4 +1,4 @@
-package com.ivannikov.lesson15;
+package com.ivannikov.oop.lesson15;
 
 public abstract class Hero {
     private String name;

@@ -1,7 +1,5 @@
 package com.ivannikov.oop.lesson19dz.chats;
 
-import java.util.Objects;
-
 public class Chat implements Comparable<Chat>{
     private String chatName;
     private Integer numberOfUsers;

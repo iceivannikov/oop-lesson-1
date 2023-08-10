@@ -1,4 +1,4 @@
-package com.ivannikov.lesson1;
+package com.ivannikov.oop.lesson1;
 
 public class TestExample {
 

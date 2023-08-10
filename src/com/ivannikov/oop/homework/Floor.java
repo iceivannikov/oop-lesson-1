@@ -1,4 +1,4 @@
-package com.ivannikov.homework;
+package com.ivannikov.oop.homework;
 
 import java.util.Arrays;
 

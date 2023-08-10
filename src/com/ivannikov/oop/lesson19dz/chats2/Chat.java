@@ -1,12 +1,14 @@
-package com.ivannikov.oop.lesson19dz.chats;
+package com.ivannikov.oop.lesson19dz.chats2;
 
-public class Chat implements Comparable<Chat>{
+import java.util.Objects;
+
+public class Chat {
     private String chatName;
-    private Integer numberOfUsers;
+    private Person person;
 
-    public Chat(String chatName, Integer numberOfUsers) {
+    public Chat(String chatName, Person person) {
         this.chatName = chatName;
-        this.numberOfUsers = numberOfUsers;
+        this.person = person;
     }
 
     public String getChatName() {
@@ -17,27 +19,32 @@ public class Chat implements Comparable<Chat>{
         this.chatName = chatName;
     }
 
-    public Integer getNumberOfUsers() {
-        return numberOfUsers;
+    public Person getPerson() {
+        return person;
     }
 
-    public void setNumberOfUsers(Integer numberOfUsers) {
-        this.numberOfUsers = numberOfUsers;
+    public void setPerson(Person person) {
+        this.person = person;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Chat chat = (Chat) o;
+        return Objects.equals(chatName, chat.chatName) && Objects.equals(person, chat.person);
+    }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(chatName, person);
+    }
 
     @Override
     public String toString() {
         return "Chat{" +
                 "chatName='" + chatName + '\'' +
-                ", numberOfUsers=" + numberOfUsers +
+                ", person=" + person +
                 '}';
-    }
-
-    @Override
-    public int compareTo(Chat o) {
-
-        return String.CASE_INSENSITIVE_ORDER.compare(chatName, o.getChatName());
     }
 }

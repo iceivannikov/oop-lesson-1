@@ -1,4 +1,4 @@
-package com.ivannikov.lesson15;
+package com.ivannikov.oop.lesson15;
 
 public class Enemy implements Mortal {
     private String name;

@@ -1,4 +1,4 @@
-package com.ivannikov.lesson10;
+package com.ivannikov.oop.lesson10;
 
 import java.util.Objects;
 

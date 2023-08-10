@@ -1,7 +1,7 @@
-package com.ivannikov.lesson17SolarSystem;
+package com.ivannikov.oop.lesson17SolarSystem;
 
 
-import com.ivannikov.lesson17SolarSystem.enam.solarsystem.Sun;
+import com.ivannikov.oop.lesson17SolarSystem.enam.solarsystem.Sun;
 
 public class SolarSystemRunner {
     public static void main(String[] args) {

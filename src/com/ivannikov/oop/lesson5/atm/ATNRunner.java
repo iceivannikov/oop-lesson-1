@@ -1,4 +1,4 @@
-package com.ivannikov.lesson5.atm;
+package com.ivannikov.oop.lesson5.atm;
 
 public class ATNRunner {
     public static void main(String[] args) {

@@ -1,6 +1,4 @@
-package com.ivannikov.lesson10;
-
-import java.util.stream.Stream;
+package com.ivannikov.oop.lesson10;
 
 public class Task9dz {
     public static void main(String[] args) {

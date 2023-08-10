@@ -1,2 +1,5 @@
-package com.ivannikov.oop.lesson20.task2;public class Task1 {
+package com.ivannikov.oop.lesson20.task2;
+
+public class GarageRunner {
+
 }

@@ -1,4 +1,4 @@
-package com.ivannikov.lesson5.atm;
+package com.ivannikov.oop.lesson5.atm;
 
 public class ATM {
     public static final int FIFTY_DENOMINATION_OF_THE_BILL = 50;

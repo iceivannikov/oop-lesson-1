@@ -1,4 +1,4 @@
-package com.ivannikov.lesson5.point;
+package com.ivannikov.oop.lesson5.point;
 
 public class Rectangle {
 

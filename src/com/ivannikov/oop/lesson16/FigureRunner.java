@@ -1,4 +1,4 @@
-package com.ivannikov.lesson16;
+package com.ivannikov.oop.lesson16;
 
 public class FigureRunner {
     public static void main(String[] args) {

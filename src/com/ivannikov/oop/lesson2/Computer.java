@@ -1,4 +1,4 @@
-package com.ivannikov.lesson2;
+package com.ivannikov.oop.lesson2;
 
 public class Computer {
     int ssd;
